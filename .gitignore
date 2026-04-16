@@ -1,0 +1,16 @@
+# 过滤所有编译生成的可执行文件
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+
+# 过滤VS Code自动生成的临时文件（可选，保留也可）
+.vscode/
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+
+# 过滤系统临时文件
+Thumbs.db
+.DS_Store
